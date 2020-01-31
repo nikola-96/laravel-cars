@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
                     Welcome {{$about['name']}}!
                 </div>
-                <div>I am {{$about['age'] old}}</div>
+                <div>I am {{$about['age']}} old</div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
