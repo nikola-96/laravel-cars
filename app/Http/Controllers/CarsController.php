@@ -12,4 +12,10 @@ class CarsController extends Controller
         return view('views', compact('cars'));
 
     }
+    public function show($id){
+
+        $car = \App\Car::find($id);
+
+        return view('/viewCar', compact('car'));
+    }
 }
